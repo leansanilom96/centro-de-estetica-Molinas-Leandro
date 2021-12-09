@@ -82,7 +82,7 @@ body{
 	text-decoration: none;
 	color: black;
 	background-color: lightblue;
-	border-radius: 25%;
+	border-radius: 15%;
 	font-size: 1.5rem;
 	}
 
@@ -384,37 +384,10 @@ body{
 /*MEDIAQUERIS DESKTOP*/
 
 @media all and (min-width: 980px){
-#header{
-	height: 100px;
-}
-#header:hover{
-	height: 120px;
-	background-color: lightblue;
-}	
 #header .logo img{
 	width: 200px;
 	height: 100px;
 	margin: 5px;
-}
-@keyframes zoom {
-	from{
-		transform: scale(1,1);
-	}
-	to{
-		transform: scale(1.1,1.1);
-	}
-}
-.bgImageFullScreen{
-	animation-name: zoom;
-	animation-timing-function: linear;
-	animation-delay: 0;
-	animation-duration: 7s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-}
-#inicio{
-	height: auto;
-	overflow: hidden;
 }
 #inicio .titulo{
 	font-size: 3.5rem;
@@ -422,11 +395,6 @@ body{
 #inicio .boton a{
 	font-size: 2rem;
 }
-#inicio .boton a:hover{
-	color: white;
-	background-color: black;
-	transform: scale(1.1);
-	}
 #footer{
 	font-size: 1.25rem;
 }
