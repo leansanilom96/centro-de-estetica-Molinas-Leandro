@@ -4,67 +4,101 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Crikinesio</title>
-	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-</head>
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crikinesio</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilosconbst.css">
 <body>
-	<div class="contenedorPromo">
-		<!--menu-->
-		<header id="header">
-				<div class="logo">
-					<img  src="../assets/logo.jpeg">
+<!--menu-->
+		<div class="container-fluid px-0">
+			<nav class="navbar navbar-expand-md navbar-light bgNav shadow p-3 bg-body rounded">
+			  	<div class="container">
+			  		<a class="navbar-brand" href="index.html"><img src="../assets/logo.jpeg"></a>
+				    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				        	<span class="navbar-toggler-icon"></span>
+				       </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="nosotros.html">Nosotros</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="servicios.html">Servicios</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link active" href="promociones.html">Promociones</a>
+				        </li>
+				      </ul>
+				    </div>
+				      <form class="d-flex">
+				        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				        <button class="btn btn-outline-success" type="submit">Search</button>
+				      </form>
 				</div>
-				<ul class="menu listNone">
-					<li><a href="../index.html">Inicio</a></li>
-					<li><a href="../contacto/contacto.html">Contacto</a></li>
-					<li><a href="nosotros.html">Nosotros</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li class="active"><a href="promociones.html">Promociones</a></li>
-				</ul>		
-		</header>
-		<!--promociones-->
-			<div class="contenidoPromo">
-				<div>
-					<p>Nuestras promociones y combos</p>
-				</div>	
-				<div>
-					<p>UNA FRASE COPADA</p>
-				</div>
-				<div class="promociones">
-					<div class="promoUno">
-						<ul class="listNone">
-							<p>PROMO 1</p>
-							<li><a href="../contacto/contacto.html">COMENZAR</a></li>
-						</ul>
-					</div>
-					<div class="promoDos">
-						<ul class="listNone">
-							<p>PROMO 2</p>
-							<li><a href="../contacto/contacto.html">COMENZAR</a></li>
-						</ul>
-					</div>
-					<div class="promoTres">
-						<ul class="listNone">
-							<p>PROMO 3</p>
-							<li><a href="../contacto/contacto.html">COMENZAR</a></li>
-						</ul>
+			</nav>	    
+		</div>
+<!--PROMOCIONES-->
+		<div class="container-fluid bgFondo">
+			<div class="container d-lg-block  mx-auto d-flex flex-column align-items-center">
+				<div class="col-12">
+					<div class="fs-2 fw-bold text-center">
+						<p>Nuestras promociones y combos</p>
+					</div>	
+					<div class="fst-italic text-center">
+						<p>UNA FRASE COPADA</p>
 					</div>
 				</div>
+				<div class="col-12 d-lg-flex flex-lg-row">
+					<div class="col-lg-4 border border-dark m-2 boxPromo text-center">
+						<p>PROMO 1</p>
+						<a class="btn btn-secondary text-decoration-none" href="../contacto/contacto.html">COMENZAR</a>
+					</div>
+					<div class="col-lg-4 border border-dark m-2 boxPromo text-center">
+						<p>PROMO 2</p>
+						<a class="btn btn-secondary text-decoration-none" href="../contacto/contacto.html">COMENZAR</a>
+					</div>
+					<div class="col-lg-4 border border-dark m-2 boxPromo text-center">
+						<p>PROMO 3</p>
+						<a class="btn btn-secondary text-decoration-none" href="../contacto/contacto.html">COMENZAR</a>
+					</div>
+				</div>
+				
 			</div>
-	<!--footer pie de pagina-->	
-		<div id="footer">
-			<div class="copyright">
-				<p>©crikinesio 2021</p>
-			</div>
-			<div class="redes"> 
-				<ul>
-					<li>Tel:5199-1212 </li>
-					<li><a href="mailto:acavaunmail@gmail.com">acavaunmail@gmail.com</a></li>
-					<li><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">Face</a></li>
-					<li><a href="https://www.instagram.com/" target="_blank">Insta</a></li>
-				</ul>
-			</div>
-		</div>		
-	</div>
-	
-</body>
+			
+		</div>	
+<!--FOOTER-->
+		<div id="footer" class="container-fluid d-md-flex flex-md-row bgNav d-flex justify-content-center align-items-center">
+				<div class="col-6 d-md-flex flex-md-row m-2">
+					<div class="col-md-4">
+						<p class="m-0">©crikinesio 2021</p>
+					</div>
+					
+					<div class="col-md-4">
+						<p class="m-0">Tel:5199-1212 </p>
+					</div>
+					<div class="col-md-4">
+						<a href="mailto:acavaunmail@gmail.com">acavaunmail@gmail.com</a>
+					</div>
+				</div>
+				<div class="col-6 d-flex flex-row m-2">
+						<div class="col-6 col-md-6">
+							<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">Face</a>
+						</div>
+						<div class="col-6 col-md-6">
+							<a href="https://www.instagram.com/" target="_blank">Insta</a>
+						</div>
+				</div>
+		</div>
+		<script src="../js/bootstrap.bundle.min.js"></script>
+</body>		
 </html>
