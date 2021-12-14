@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;600;700&family=Praise&display=swap');
 
-
+body{
+	font-family: 'Montagu Slab', serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
 .navbar-brand img{
-	width: 150px;
+	width: 100px;
 	border-radius: 25%;
 	border: 2px solid white;
 	box-sizing: border-box;
 	padding: 5px;
 }
-.navbar-nav{
-	font-size: 1.5rem;
-}
+
 .bgNav{
-	background:lightskyblue !important ;
+	background:lightblue;
 	opacity: 0.8;
+	height: 142px;
+	font-size: 20px;
 }
+
+@media all and (min-width: 980px){
+	.bgNav{
+		background: #c3e8ff;
+		opacity: .5;
+		height: 120px;
+	}
+	.bgNav:hover{
+		background:lightblue;
+		opacity: .9;
+		font-size: 24px;
+	}
+	.scale:hover{
+		transform: scale(1.1);
+	}
+}
+
+
 .bgFondo{
 	background: #d5d4cf;
 }
@@ -42,6 +65,9 @@
 #footer{
 	color: black;
 	min-height: 120px;
+	background:lightblue;
+	opacity: .9;
+	font-size: 1.3rem;
 	
 }
 #footer ul{
@@ -59,7 +85,7 @@
 	max-width: 700px;
 }
 .boxPromo{
-	height: 600px;
+	height: 550px;
 	background: white;
 }
 .imgService{
