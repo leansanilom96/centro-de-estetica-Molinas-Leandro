@@ -6,8 +6,10 @@
 	<title>Crikinesio</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosconbst.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
+	<div id="fondo">
 <!--menu-->
 		<div class="container-fluid px-0">
 			<nav class="navbar navbar-expand-md navbar-light bgNav shadow p-3 rounded">
@@ -43,12 +45,12 @@
 			</nav>	    
 		</div>
 	<!--FORMULARIO-->
-	<div id="fondo">
-		<div class="container">
-			<div class="row d-md-flex flex-md-row mx-auto">
+	
+		<div class="container animate__animated animate__backInUp">
+			<div class="row d-md-flex flex-md-row mx-auto ">
 				<div class="my-2 col-md-5">
 					<div>
-						<p class="mytitles">Escribinos completando el siguiente formulario:</p>
+						<p class="mytitles ">Escribinos completando el siguiente formulario:</p>
 					</div>
 					<form class="mb-3">
 						<div class="row">
@@ -103,6 +105,7 @@
 				</div>
 			</div>
 		</div>
+
 	</div>
 		
 <!--FOOTER-->
@@ -129,5 +132,9 @@
 				</div>
 		</div>
 	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src = "../js / wow.js"> </script>
+     <script>
+     nuevo WOW (). init ();
+     </script>
 </body>
 </html>

@@ -26,7 +26,7 @@ body{
 		opacity: .5;
 		height: 120px;
 	}
-	.bgNav:hover{
+.bgNav:hover{
 		background:lightblue;
 		opacity: .9;
 		font-size: 24px;
@@ -49,7 +49,7 @@ body{
 	position: relative;
 	}
 #fondo{
-	height: 100vh;
+	height: 120vh;
 	width: 100%;
 	background-image: url('../assets/fondoformulario.jpg.webp') ;
 	background-position: center;
@@ -82,7 +82,7 @@ body{
 }
 .imagenNosotros{
 	max-height: 1000px;
-	max-width: 700px;
+	max-width: 600px;
 }
 .boxPromo{
 	height: 550px;
