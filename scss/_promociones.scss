@@ -1,0 +1,17 @@
+#fondoPromo{
+	height: 120vh;
+	width: 100%;
+	background-image: url('../assets/fondopromo.jpg') ;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.boxPromo{
+	height: 550px;
+	background: $bgMainWhite;
+	@media all and (min-width: $pointLg){
+		&:hover{
+			transform: $trf;
+		}
+	}
+}
