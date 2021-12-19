@@ -4,49 +4,84 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Crikinesio</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilosconbst.css">
 </head>
-<body id="padre">
-	<!--menu-->
-		<header id="header">
-				<a href="index.html">
-					<div class="logo">
-						<img src="assets/logo.jpeg">
+<body>
+	<div id="banner">
+<!--menu-->
+		<div class="container-fluid px-0 ">
+			<nav class="navbar navbar-expand-md navbar-light bgNav shadow p-3 rounded">
+			  	<div class="container">
+			  		<a class="navbar-brand" href="index.html"><img src="assets/logo.jpeg"></a>
+				    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				        	<span class="navbar-toggler-icon"></span>
+				       </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="contacto/contacto.html">Contacto</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="html/nosotros.html">Nosotros</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="html/servicios.html">Servicios</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="html/promociones.html">Promociones</a>
+				        </li>
+				      </ul>
+				    </div>
+				      <form class="d-flex">
+				        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				        <button class="btn btn-outline-success" type="submit">Search</button>
+				      </form>
+				</div>
+			</nav>	    
+		</div>
+<!--INICIO-->
+		<div class=" container inicio d-flex align-items-center justify-content-center ">
+			<div class="row">
+				<div class="col-lg-7 mx-auto animate__animated animate__backInUp ">
+					<p class="fw-bold mytitles">Centro de estetica corporal y Masajes</p>
+					<button type="button" class="btn btn-info scale"><a href="contacto/contacto.html"class="text-decoration-none text-white">Reserva tu turno</a></button>
+				</div>
+			</div>
+		</div>
+	</div>	
+<!--FOOTER-->
+		<div id="footer" class="container-fluid d-md-flex flex-md-row  d-flex justify-content-center align-items-center">
+				<div class="col-6 d-md-flex flex-md-row m-2">
+					<div class="col-md-4">
+						<p class="m-0">©crikinesio 2021</p>
 					</div>
-				</a>
-				<ul class="menu listNone">
-					<li class="active"><a href="index.html">Inicio</a></li>
-					<li><a href="contacto/contacto.html">Contacto</a></li>
-					<li><a href="html/nosotros.html">Nosotros</a></li>
-					<li><a href="html/servicios.html">Servicios</a></li>
-					<li><a href="html/promociones.html">Promociones</a></li>
-				</ul>		
-		</header>
-	<!--inicio-->
-		<div id="inicio">
-			<div class="bgImageFullScreen"></div>
-			<div class="titulo">
-				<p>Centro de estetica corporal y Masajes</p>
-			</div>
-			<div class="boton listNone">
-				<li><a href="contacto/contacto.html">Reserva tu turno</a></li>
-			</div>
-		</div>	
-	<!--footer pie de pagina-->	
-		<div id="footer">
-			<div class="copyright">
-				<p>©crikinesio 2021</p>
-			</div>
-			<div class="redes"> 
-				<ul>
-					<li>Tel:5199-1212 </li>
-					<li><a href="mailto:acavaunmail@gmail.com">acavaunmail@gmail.com</a></li>
-					<li><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">Face</a></li>
-					<li><a href="https://www.instagram.com/" target="_blank">Insta</a></li>
-				</ul>
-			</div>
-		</div>			
+					
+					<div class="col-md-4">
+						<p class="m-0">Tel:5199-1212 </p>
+					</div>
+					<div class="col-md-4">
+						<a href="mailto:acavaunmail@gmail.com">acavaunmail@gmail.com</a>
+					</div>
+				</div>
+				<div class="col-6 d-flex flex-row m-2">
+						<div class="col-6 col-md-6">
+							<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="assets/logotipo-facebook.png" width="100" height="50"></a>
+						</div>
+						<div class="col-6 col-md-6">
+							<a href="https://www.instagram.com/" target="_blank"><img src="assets/logoinsta.jpg"width="60" height="50"></a>
+						</div>
+				</div>
+		</div>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src = "js / wow.js"> </script>
+     <script>
+     nuevo WOW (). init ();
+     </script>
 </body>
 </html>
-
 				
