@@ -11,6 +11,12 @@
 		font-size:4rem;
 		text-align: center;
 	}
+	.mySubtitles{
+		@include mysubtitles( 1rem, center)
+	}
+	.descripcion{
+		@include mysubtitles(1rem, center, 400)
+	}
 }
 .imgService{
 	width: 150px;

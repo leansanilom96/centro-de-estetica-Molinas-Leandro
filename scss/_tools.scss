@@ -2,3 +2,8 @@
 	background: $bg;
 	opacity: $op;
 }
+@mixin mysubtitles($f, $t, $fw: 700){
+	font-size: $f;
+	text-align: $t;
+	font-weight: $fw;
+}
