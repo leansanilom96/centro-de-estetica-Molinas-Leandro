@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Estica corporal, contacto">
+	<meta name="keywords" content="belleza, cuidado personal">
 	<title>Crikinesio</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -11,8 +13,7 @@
 <body>
 	
 <!--menu-->
-		<div class="container-fluid px-0 bgFondo">
-			<nav class="navbar navbar-expand-md navbar-light bgNav shadow p-3 rounded">
+			<nav class="navbar navbar-expand-md navbar-light bgNav shadow p-3 rounded container-fluid px-0 bgFondo">
 			  	<div class="container">
 			  		<a class="navbar-brand" href="index.html"><img src="../assets/logo.jpeg"></a>
 				    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,22 +43,24 @@
 				        <button class="btn btn-outline-success" type="submit">Search</button>
 				      </form>
 				</div>
-			</nav>	    
-		</div>
+			</nav>	
 <!--nosotros-->	
-		<div class="container-fluid m-3">
+		<section class="container-fluid m-3">
 			<div class="container-sm row m-auto">
 				<div id="fondoNosotros" class="col-lg-6 animate__animated animate__backInUp ">
-					<div class="mytitles">
-						<p>Conocé Crikinesio:</p>
-					</div>
-					<div class="fst-italic fs-4">
-						<span>Centro de Estetica corporal y Masajes</span>
-					</div>
-					<div class="mySubtitles">
-						<p>Sobre Nosotros:</p>
-					</div>
-					<div>
+					<header>
+							<h1 class="mytitles">
+								Conocé Crikinesio:
+							</h1>
+						
+							<h2 class="fst-italic fs-4">
+								Centro de Estetica corporal y Masajes
+							</h2>
+							<h3 class="mySubtitles">
+							 	Sobre Nosotros:
+							</h3>
+					</header>
+					<article>
 						<p>ACA VA UN PARRAFO DESCRIBIENDO LOS PROFESIONALES Y REFERENCIAS DE LOS KINESIOLOGOS Y ESTETICISTAS, TAMBIEN SU EXPERIENCIA PROFESIONAL
 						</p>
 						<p>
@@ -76,13 +79,13 @@
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-					</div>
+					</article>
 				</div>
-				<div class="col-lg-6 d-none d-lg-block">
+				<section class="col-lg-6 d-none d-lg-block">
 					<img class=" imagenNosotros" src="../assets/nosotros.jpg" alt=" chica en tratamiento">
-				</div>
+				</section>
 			</div>
-		</div>
+		</section>
 
 <!--FOOTER-->
 		<div id="footer" class="container-fluid d-md-flex flex-md-row  d-flex justify-content-center align-items-center">
@@ -109,8 +112,5 @@
 		</div>
 	<script src="../js/bootstrap.bundle.min.js"></script>
 	<script src = "../js / wow.js"> </script>
-     <script>
-     nuevo WOW (). init ();
-     </script>
 </body>
 </html>
