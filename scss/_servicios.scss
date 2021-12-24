@@ -5,6 +5,12 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	.mytitles{
+		font-weight: map-get($miMap, bold);
+		font-family: map-get($miMap, praise);
+		font-size:4rem;
+		text-align: center;
+	}
 }
 .imgService{
 	width: 150px;

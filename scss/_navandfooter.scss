@@ -4,17 +4,14 @@ body{
 	font-size: 1rem;
 }
 .bgNav{
-	background:$bgMain;
-	opacity: 0.8;
+	@include bgPrincipal(.9)
 	height: 142px;
 	font-size: 20px;
 	@media all and (min-width: $pointLg){
-		background: #c3e8ff;
-		opacity: .7;
+		@include bgPrincipal(.7, #c3e8ff)
 		height: 120px;
 		&:hover{
-			background:$bgMain;
-			opacity: .9;
+			@include bgPrincipal(.9)
 			font-size: 24px;
 		}
 	}
@@ -29,8 +26,7 @@ body{
 #footer{
 	color: black;
 	min-height: 120px;
-	background:$bgMain;
-	opacity: .9;
+	@include bgPrincipal(.9)
 	font-size: 1.3rem;
 	ul{
 		list-style-type: none;

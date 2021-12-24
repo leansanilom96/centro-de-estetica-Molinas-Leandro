@@ -1,7 +1,9 @@
 .inicio{
 	min-height: 400px;
 	.mytitles{
-		font-size:2.5rem;
+		font-weight: map-get($miMap, bold);
+		font-family: map-get($miMap, praise);
+		font-size:4rem;
 	}
 	@media all and (min-width: $pointLg){
 		.btn-info:hover{
@@ -9,11 +11,10 @@
 		}
 	}
 }
-	
 #fondoIndex{
+	background-image: url('../assets/estetica.jpg.jpg') ;
 	height: 100vh;
 	width: 100%;
-	background-image: url('../assets/estetica.jpg.jpg') ;
 	background-position: center;
 	background-size: cover;
 	position: relative;

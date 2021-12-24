@@ -5,6 +5,15 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	.mytitles{
+		font-weight: map-get($miMap, bold);
+		font-family: map-get($miMap, praise);
+		font-size:4rem;
+		text-align: center;
+	}
+	.btn-secondary{
+		@extend %unaNoClase
+	}
 }
 .boxPromo{
 	height: 550px;
@@ -14,4 +23,7 @@
 			transform: $trf;
 		}
 	}
+}
+%unaNoClase{
+	text-decoration: none;
 }

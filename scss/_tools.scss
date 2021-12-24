@@ -1,0 +1,4 @@
+@mixin bgPrincipal($op ,$bg: $bgMain){
+	background: $bg;
+	opacity: $op;
+}
