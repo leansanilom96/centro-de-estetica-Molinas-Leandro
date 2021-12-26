@@ -5,7 +5,6 @@ body{
 }
 .bgNav{
 	@include bgPrincipal(.9)
-	
 	font-size: 20px;
 	@media all and (min-width: $pointLg){
 		@include bgPrincipal(.7, #c3e8ff)
