@@ -1,0 +1,15 @@
+
+#fondoContacto{
+	background-image: url('../assets/fondoformulario.jpg.webp') ;
+	min-height: 120vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	.mytitles{
+		font-weight: map-get($miMap, bold);
+		font-family: map-get($miMap, praise);
+		font-size:2.5rem;
+	}
+	
+}

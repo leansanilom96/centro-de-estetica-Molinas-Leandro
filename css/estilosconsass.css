@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;600;700&family=Praise&display=swap");
+body {
+  font-family: 'Montagu Slab', serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.bgNav {
+  background: lightblue;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+@media all and (min-width: 992px) {
+  .bgNav {
+    background: #c3e8ff;
+    opacity: 0.7;
+    height: 120px;
+  }
+  .bgNav:hover {
+    background: lightblue;
+    opacity: 0.9;
+    font-size: 24px;
+  }
+}
+
+.bgNav img {
+  width: 100px;
+  border-radius: 25%;
+  border: 2px solid white;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#footer {
+  color: black;
+  min-height: 120px;
+  background: lightblue;
+  opacity: 0.9;
+  font-size: 1.3rem;
+}
+
+#footer ul {
+  list-style-type: none;
+}
+
+#footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.inicio {
+  min-height: 400px;
+}
+
+.inicio .mytitles {
+  font-weight: 700;
+  font-family: praise;
+  font-size: 4rem;
+}
+
+@media all and (min-width: 992px) {
+  .inicio .btn-info:hover {
+    transform: scale(1.1);
+  }
+}
+
+#fondoIndex {
+  background-image: url("../assets/estetica.jpg.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#fondoContacto {
+  background-image: url("../assets/fondoformulario.jpg.webp");
+  min-height: 120vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#fondoContacto .mytitles {
+  font-weight: 700;
+  font-family: praise;
+  font-size: 2.5rem;
+}
+
+#fondoServicios {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../assets/imagenparaservicio.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#fondoServicios .mytitles {
+  font-weight: 700;
+  font-family: praise;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#fondoServicios .mySubtitles {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+#fondoServicios .descripcion {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.imgService {
+  width: 150px;
+  padding: 31px 14px 0 0;
+  border: 2px solid;
+  border-radius: 30%;
+  background: white;
+}
+
+@media all and (min-width: 992px) {
+  .imgService:hover {
+    transform: scale(1.1);
+    background: lightblue;
+  }
+}
+
+#fondoPromo {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url("../assets/fondopromo.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#fondoPromo .mytitles {
+  font-weight: 700;
+  font-family: praise;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.boxPromo {
+  height: 330px;
+  background: white;
+}
+
+@media all and (min-width: 992px) {
+  .boxPromo {
+    height: 550px;
+  }
+  .boxPromo:hover {
+    transform: scale(1.1);
+  }
+}
+
+#fondoPromo .btn-secondary {
+  text-decoration: none;
+}
+
+#fondoNosotros {
+  background: #d5d4cf;
+}
+
+#fondoNosotros .mytitles {
+  font-weight: 700;
+  font-family: praise;
+  font-size: 3rem;
+}
+
+#fondoNosotros .mySubtitles {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.imagenNosotros {
+  max-height: 1000px;
+  max-width: 600px;
+}

@@ -1,0 +1,40 @@
+body{
+	font-family: 'Montagu Slab', serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+.bgNav{
+	@include bgPrincipal(.9)
+	font-size: 20px;
+	@media all and (min-width: $pointLg){
+		@include bgPrincipal(.7, #c3e8ff)
+		height: 120px;
+		&:hover{
+			@include bgPrincipal(.9)
+			font-size: 24px;
+		}
+	}
+	img{
+		width: 100px;
+		border-radius: 25%;
+		border: 2px solid white;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+}
+#footer{
+	color: black;
+	min-height: 120px;
+	@include bgPrincipal(.9)
+	font-size: 1.3rem;
+	ul{
+		list-style-type: none;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+}
+
+
+

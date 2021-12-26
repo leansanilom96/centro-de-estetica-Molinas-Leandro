@@ -1,0 +1,30 @@
+#fondoPromo{
+	min-height: 120vh;
+	width: 100%;
+	background-image: url('../assets/fondopromo.jpg') ;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	.mytitles{
+		font-weight: map-get($miMap, bold);
+		font-family: map-get($miMap, praise);
+		font-size:4rem;
+		text-align: center;
+	}
+	.btn-secondary{
+		@extend %unaNoClase
+	}
+}
+.boxPromo{
+	height: 330px;
+	background: $bgMainWhite;
+	@media all and (min-width: $pointLg){
+		height: 550px;
+		&:hover{
+			transform: $trf;
+		}
+	}
+}
+%unaNoClase{
+	text-decoration: none;
+}

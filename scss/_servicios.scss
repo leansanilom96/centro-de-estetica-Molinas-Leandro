@@ -1,0 +1,33 @@
+#fondoServicios{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url('../assets/imagenparaservicio.jpg') ;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	.mytitles{
+		font-weight: map-get($miMap, bold);
+		font-family: map-get($miMap, praise);
+		font-size:4rem;
+		text-align: center;
+	}
+	.mySubtitles{
+		@include mysubtitles( 1rem, center)
+	}
+	.descripcion{
+		@include mysubtitles(1rem, center, 400)
+	}
+}
+.imgService{
+	width: 150px;
+	padding: 31px 14px 0 0;
+	border: 2px solid;
+	border-radius: 30%;
+	background: $bgMainWhite;
+	@media all and (min-width: $pointLg){
+		&:hover{
+			transform: $trf;
+			background: $bgMain;
+		}
+	}
+}
