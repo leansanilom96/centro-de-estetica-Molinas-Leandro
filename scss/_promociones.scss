@@ -1,5 +1,5 @@
 #fondoPromo{
-	height: 120vh;
+	min-height: 120vh;
 	width: 100%;
 	background-image: url('../assets/fondopromo.jpg') ;
 	background-position: center;
@@ -16,9 +16,10 @@
 	}
 }
 .boxPromo{
-	height: 550px;
+	height: 330px;
 	background: $bgMainWhite;
 	@media all and (min-width: $pointLg){
+		height: 550px;
 		&:hover{
 			transform: $trf;
 		}
