@@ -1,16 +1,15 @@
 #fondoNosotros{
 	background: #d5d4cf;
 	.mytitles{
-		font-weight: map-get($miMap, bold);
-		font-family: map-get($miMap, praise);
-		font-size:3rem;
+		font-weight: map-get($miMap, medium);
+		font-size:2.5rem;
 		}
 	.mySubtitles{
-		font-weight: map-get($miMap, bold);
+		font-weight: map-get($miMap, medium);
 		font-size: 1.5rem;
 	}	
 }
 .imagenNosotros{
-	max-height: 1000px;
+	height: 758px;
 	max-width: 600px;
 }

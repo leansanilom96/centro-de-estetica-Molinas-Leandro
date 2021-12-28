@@ -6,9 +6,9 @@
 	background-size: cover;
 	position: relative;
 	.mytitles{
-		font-weight: map-get($miMap, bold);
-		font-family: map-get($miMap, praise);
-		font-size:4rem;
+		font-weight: map-get($miMap, semiBold);
+		font-family: oswald;
+		font-size:3rem;
 		text-align: center;
 	}
 	.mySubtitles{

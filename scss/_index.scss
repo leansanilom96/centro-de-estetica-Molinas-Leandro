@@ -2,8 +2,8 @@
 	min-height: 400px;
 	.mytitles{
 		font-weight: map-get($miMap, bold);
-		font-family: map-get($miMap, praise);
-		font-size:4rem;
+		font-family: oswald;
+		font-size:3rem;
 	}
 	@media all and (min-width: $pointLg){
 		.btn-info:hover{

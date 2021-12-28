@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;600;700&family=Praise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;500;600;700&family=Oswald:wght@300;400;700&display=swap");
 body {
   font-family: 'Montagu Slab', serif;
   font-weight: 400;
@@ -55,8 +55,8 @@ body {
 
 .inicio .mytitles {
   font-weight: 700;
-  font-family: praise;
-  font-size: 4rem;
+  font-family: oswald;
+  font-size: 3rem;
 }
 
 @media all and (min-width: 992px) {
@@ -84,9 +84,19 @@ body {
 }
 
 #fondoContacto .mytitles {
-  font-weight: 700;
-  font-family: praise;
+  font-weight: 600;
+  font-family: oswald;
   font-size: 2.5rem;
+}
+
+#fondoContacto .iframe {
+  width: 400px;
+}
+
+@media all and (min-width: 992px) {
+  #fondoContacto .iframe {
+    width: 600px;
+  }
 }
 
 #fondoServicios {
@@ -99,9 +109,9 @@ body {
 }
 
 #fondoServicios .mytitles {
-  font-weight: 700;
-  font-family: praise;
-  font-size: 4rem;
+  font-weight: 600;
+  font-family: oswald;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -142,9 +152,9 @@ body {
 }
 
 #fondoPromo .mytitles {
-  font-weight: 700;
-  font-family: praise;
-  font-size: 4rem;
+  font-weight: 500;
+  font-family: oswald;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -160,9 +170,41 @@ body {
   .boxPromo:hover {
     transform: scale(1.1);
   }
+  .boxPromo .titulo1 {
+    margin: 2rem 0 4rem 0;
+  }
+  .boxPromo .items1 {
+    margin-bottom: 3rem;
+  }
+  .boxPromo .sesiones1 {
+    margin-bottom: 3rem;
+  }
+  .boxPromo .titulo2 {
+    margin: 2rem 0 4rem 0;
+  }
+  .boxPromo .items2 {
+    margin-bottom: 4.5rem;
+  }
+  .boxPromo .sesiones2 {
+    margin-bottom: 3rem;
+  }
+  .boxPromo .titulo3 {
+    margin: 2rem 0 4rem 0;
+  }
+  .boxPromo .items3 {
+    margin-bottom: 6rem;
+  }
+  .boxPromo .sesiones3 {
+    margin-bottom: 3rem;
+  }
 }
 
-#fondoPromo .btn-secondary {
+.boxPromo .itemPromo {
+  list-style-type: none;
+  font-weight: 400;
+}
+
+#fondoPromo .priceBoton {
   text-decoration: none;
 }
 
@@ -171,17 +213,16 @@ body {
 }
 
 #fondoNosotros .mytitles {
-  font-weight: 700;
-  font-family: praise;
-  font-size: 3rem;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 #fondoNosotros .mySubtitles {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.5rem;
 }
 
 .imagenNosotros {
-  max-height: 1000px;
+  height: 758px;
   max-width: 600px;
 }

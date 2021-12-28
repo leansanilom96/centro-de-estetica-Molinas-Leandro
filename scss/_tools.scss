@@ -7,3 +7,7 @@
 	text-align: $t;
 	font-weight: $fw;
 }
+@mixin itemPromo($l:none, $fw: 400){
+	list-style-type: $l;
+	font-weight: $fw;
+}
